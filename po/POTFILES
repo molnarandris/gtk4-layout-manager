@@ -1,0 +1,7 @@
+data/com.github.molnarandris.gtk4_layoutmanager.desktop.in
+data/com.github.molnarandris.gtk4_layoutmanager.appdata.xml.in
+data/com.github.molnarandris.gtk4_layoutmanager.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+
