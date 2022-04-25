@@ -16,13 +16,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from gi.repository import Gtk
-
+from .ShufflingRectangles import ShufflingRectangles
+from .ColorRect import ColorRect
 
 @Gtk.Template(resource_path='/com/github/molnarandris/gtk4_layoutmanager/window.ui')
 class Gtk4LayoutmanagerWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'Gtk4LayoutmanagerWindow'
 
-    label = Gtk.Template.Child()
+    shuffle = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

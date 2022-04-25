@@ -29,6 +29,9 @@ gtk4_layoutmanager_sources = [
   '__init__.py',
   'main.py',
   'window.py',
+  'ShufflingRectangles.py',
+  'ShufflingLayoutManager.py',
+  'ColorRect.py',
 ]
 
 install_data(gtk4_layoutmanager_sources, install_dir: moduledir)
