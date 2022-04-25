@@ -45,7 +45,6 @@ class ShufflingRectangles(Gtk.Widget):
         self.add_controller(gesture)
 
     def click_cb(self,widget,n,x,y):
-        print("pressed", self.tick_id)
         if self.tick_id != 0:
             return
         self.start_time = GLib.get_monotonic_time()
